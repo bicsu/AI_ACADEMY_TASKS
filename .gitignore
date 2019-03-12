@@ -1,5 +1,11 @@
-/1.DeepLearning_MachineLearning/0307/datasets/*
+/1.DeepLearning_MachineLearning/2.CNN/datasets/*
 /1.DeepLearning_MachineLearning/datasets/*
-/1.DeepLearning_MachineLearning/task/ResidualNet/data/*
-/1.DeepLearning_MachineLearning/task/ResidualNet/CNN_CIFAR100/*
+/1.DeepLearning_MachineLearning/0.tasks/ResidualNet/data/*
+/1.DeepLearning_MachineLearning/0.tasks/ResidualNet/CNN_CIFAR100/*
 /2.AI/*.txt
+/1.DeepLearning_MachineLearning/3.GANs/gan_summary/image/*
+/1.DeepLearning_MachineLearning/0.tasks/ResidualNet/CNN_CIFAR100/data/cifar-100-python/*
+*.data
+*.gz
+*.tar
+*.zip
