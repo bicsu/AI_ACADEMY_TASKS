@@ -1,6 +1,3 @@
-
-_X_ = None
-
 class TransportationProblem():
     def __init__(self, end_state):
         self.end_state = end_state
@@ -15,14 +12,14 @@ class TransportationProblem():
         results = []
         
         # Walk action
-        if _X_:
+        if (state+1) <= self.end_state:
             next_state = state + 1
             action = 'Walk'
             cost = 1
             results.append((action, next_state, cost))
             
         # Tram action
-        if _X_:
+        if (2*state) <= self.end_state:
             next_state = 2 * state
             action = 'Tram'
             cost = 2
@@ -37,7 +34,7 @@ bts = backtracking_search.BacktrackingSearch(verbose=3)
 # print(bts.solve(problem))
 
 import dynamic_programming_search
-dps = dynamic_programming_search.DynamicProgrammingSearch(verbose=1)
+# dps = dynamic_programming_search.DynamicProgrammingSearch(verbose=1)
 # dps = dynamic_programming_search.DynamicProgrammingSearch(memory_use=False, verbose=1)
 # print(dps.solve(problem))
 

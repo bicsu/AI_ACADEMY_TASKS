@@ -35,8 +35,8 @@ problem = NumberLineSearchProblem(5, 3)
 
 import backtracking_search
 bts = backtracking_search.BacktrackingSearch(verbose=3)
-# print(bts.solve(problem))  # backtracking_search won't end...
+#print(bts.solve(problem))  # backtracking_search won't end...
 
 import uniform_cost_search
 ucs = uniform_cost_search.UniformCostSearch(verbose=3)
-# print(ucs.solve(problem))
+print(ucs.solve(problem))

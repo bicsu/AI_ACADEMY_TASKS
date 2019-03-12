@@ -15,16 +15,16 @@ class BacktrackingSearch(util.SearchAlgorithm):
         if self.problem.is_end(_X_):
             if self.verbose >= 1:
                 print('... new path %s [%d]'%(path, path_cost))
-            if self.best_path is None or _X_:  # compare path_cost with self.best_path_cost
-                self.best_path, self.best_path_cost = _X_  # update best_path & best_path_cost
+            if self.best_path is None or path_cost<self.best_path_cost:  # compare path_cost with self.best_path_cost
+                self.best_path, self.best_path_cost = tuple(path), path_cost  # update best_path & best_path_cost
         
         # Find minimum cost path
         else:
             for action, next_state, action_cost in self.problem.succ_and_cost(state):
-                _X_  # extend path: use list.append
+                path.append(action)  # extend path: use list.append
                 extended_path_cost = path_cost + action_cost
                 self.recurrence(next_state, path, extended_path_cost)
-                _X_  # recover path: use list.pop
+                path.pop()# recover path: use list.pop
 
     def solve(self, problem):
         # Not thread-safe
