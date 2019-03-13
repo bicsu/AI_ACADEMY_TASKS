@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5f00b0b-dd14-4bc9-b976-0a60212b41f6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ch3/practice/backtracking_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/practice/backtracking_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/practice/numberline_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/practice/numberline_problem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ch3/practice/transportation_problem.py" beforeDir="false" afterPath="$PROJECT_DIR$/ch3/practice/transportation_problem.py" afterDir="false" />
-    </list>
+    <list default="true" id="b5f00b0b-dd14-4bc9-b976-0a60212b41f6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ch3/practice/dynamic_programming_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+            <state relative-caret-position="480">
+              <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -271,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ch3/practice/dynamic_programming_search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+        <state relative-caret-position="480">
+          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
         </state>
       </provider>
     </entry>
