@@ -18,9 +18,9 @@ class VowelInsertionProblem(util.SearchProblem):
     def succ_and_cost(self, state):
         pos, prev_word = state
         vowel_removed_word = self.queryWords[pos]
-        fills = _X_  # use self.possibleFills
+        fills = self.possibleFills(vowel_removed_word) | {vowel_removed_word}  # use self.possibleFills
         for fill in fills:
-            next_state = _X_
+            next_state = pos + 1, fill
             cost = self.bigramCost(prev_word, fill)
             yield fill, next_state, cost  # return action, state, cost
     
